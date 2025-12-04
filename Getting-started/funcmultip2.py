@@ -3,5 +3,5 @@ def square(x):
     global numcalls
     numcalls = numcalls + 1
     return x * x
-print(square(5))
-print(square(2*5))
+print(square(5))    #25
+print(square(2*5))   #100
